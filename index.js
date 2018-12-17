@@ -1,5 +1,5 @@
 module.exports = {
-  extends: 'airbnb-base',
+  extends: ['airbnb-base', 'plugin:vue/recommended'],
   plugins: ['html', 'jsdoc'],
   env: {
     browser: true,

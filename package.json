@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-goldfire",
   "description": "GoldFire Studios standard ESLint config.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "James Simpson <james@goldfirestudios.com> (http://goldfirestudios.com)",
   "repository": {
     "type": "git",
@@ -17,10 +17,11 @@
   "license": "MIT",
   "main": "index.js",
   "peerDependencies": {
-    "eslint": ">=4.19.1",
-    "eslint-config-airbnb-base": ">=12.1.0",
-    "eslint-plugin-html": ">=4.0.2",
-    "eslint-plugin-import": ">=2.10.0",
-    "eslint-plugin-jsdoc": ">=3.5.0"
+    "eslint": ">=5.10.0",
+    "eslint-config-airbnb-base": ">=13.1.0",
+    "eslint-plugin-html": ">=5.0.0",
+    "eslint-plugin-import": ">=2.14.0",
+    "eslint-plugin-jsdoc": ">=3.14.0",
+    "eslint-plugin-vue": "5.0.0"
   }
 }

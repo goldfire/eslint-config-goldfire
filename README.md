@@ -3,7 +3,7 @@
 
 ## Installation
 ```
-npm install --save-dev eslint eslint-config-goldfire eslint-config-airbnb-base eslint-plugin-html eslint-plugin-import eslint-plugin-jsdoc
+npm install --save-dev eslint eslint-config-goldfire eslint-config-airbnb-base eslint-plugin-html eslint-plugin-import eslint-plugin-jsdoc eslint-plugin-vue
 ```
 
 ## Usage
