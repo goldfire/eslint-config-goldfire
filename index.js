@@ -6,6 +6,7 @@ module.exports = {
     node: true
   },
   rules: {
+    // General rules.
     'import/no-extraneous-dependencies': ['warn', {
       'devDependencies': true,
     }],
@@ -78,11 +79,27 @@ module.exports = {
     }],
     'arrow-body-style': 0,
     'prefer-promise-reject-errors': ['off'],
+
+    // Vue rules.
+    'vue/max-attributes-per-line': ['error', {
+      'singleline': 4,
+      'multiline': 1,
+    }],
+    'vue/singleline-html-element-content-newline': false,
+    'vue/html-self-closing': ['warning', {
+      'html': {
+        'void': 'never',
+        'normal': 'never',
+        'component': 'always',
+      },
+      'svg': 'always',
+      'math': 'always',
+    }],
   },
-  'settings': {
-    'jsdoc': {
-      'tagNamePreference': {
-        'returns': 'return',
+  settings: {
+    jsdoc: {
+      tagNamePreference: {
+        returns: 'return',
       },
     },
   },
