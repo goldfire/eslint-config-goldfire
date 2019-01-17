@@ -95,6 +95,7 @@ module.exports = {
       'svg': 'always',
       'math': 'always',
     }],
+    'vue/component-name-in-template-casing': ['warning', 'kebab-case'],
   },
   settings: {
     jsdoc: {
