@@ -39,7 +39,7 @@ module.exports = {
     'no-unneeded-ternary': ['warn', {'defaultAssignment': true}],
     'no-whitespace-before-property': 'error',
     'object-curly-spacing': ['warn', 'never'],
-    'object-curly-newline': ['warn', {'consistent':true, 'multiline': true}],
+    'object-curly-newline': ['warn', {'consistent': true, 'multiline': true}],
     'require-jsdoc': ['error', {
       'require': {
         'FunctionDeclaration': true,
@@ -85,8 +85,8 @@ module.exports = {
       'singleline': 4,
       'multiline': 1,
     }],
-    'vue/singleline-html-element-content-newline': false,
-    'vue/html-self-closing': ['warning', {
+    'vue/singleline-html-element-content-newline': 0,
+    'vue/html-self-closing': [1, {
       'html': {
         'void': 'never',
         'normal': 'never',
@@ -95,7 +95,7 @@ module.exports = {
       'svg': 'always',
       'math': 'always',
     }],
-    'vue/component-name-in-template-casing': ['warning', 'kebab-case'],
+    'vue/component-name-in-template-casing': [1, 'kebab-case'],
   },
   settings: {
     jsdoc: {
