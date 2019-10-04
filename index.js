@@ -96,6 +96,7 @@ module.exports = {
       'math': 'always',
     }],
     'vue/component-name-in-template-casing': [1, 'kebab-case'],
+    'vue/no-v-html': 0,
   },
   settings: {
     jsdoc: {
