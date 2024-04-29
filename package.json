@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-goldfire",
   "description": "GoldFire Studios standard ESLint config.",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "author": "James Simpson <james@goldfirestudios.com> (http://goldfirestudios.com)",
   "repository": {
     "type": "git",
